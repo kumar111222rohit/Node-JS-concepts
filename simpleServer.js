@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-const http = require("http");
+// const http = require("http");
+import http from "node:http";
 
 var server = http.createServer((req, res) => {
   res.write("hello world");
